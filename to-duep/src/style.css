@@ -1,0 +1,49 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 250px;
+}
+
+.tudinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.resposta{
+    background-color: rgba(165, 164, 164, 0.329);
+    width: 350px;
+    margin-top: 10px;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.divisao{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 0.1px;
+}
+
+.container-task{
+    display: flex;
+    justify-content: center;
+}
+
+.task{
+    padding: 5px;
+}
+
+.task-single{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-delete{
+    cursor: pointer;
+}
